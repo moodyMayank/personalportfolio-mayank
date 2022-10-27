@@ -36,4 +36,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. Initiated the Project using : npx create-next-app@latest
 2. Installed the Tailwind Package : npm install -D tailwindcss
 3. Make a Tailwind config file using : npx tailwindcss init
-4.
+4. Add the Tailwind CSS Extension also in VSCode { add the required lines from the extension page in the settings file also }
+5. Do the npm run dev , to start the project
+6. Now add the following tailwind lines in the global.css file
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilites;
+7. Add the custom font also in global.css i.e burtons from the public folder
+8. So We will also need the React Icons for use , so install the package using : npm i react-icons
+9. Also Follow the framework guide for NextJS and follow the steps to work it completely.
